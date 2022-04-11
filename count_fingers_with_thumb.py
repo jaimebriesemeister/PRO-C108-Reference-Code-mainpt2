@@ -27,7 +27,7 @@ def countFingers(image, hand_landmarks, handNo=0):
                 finger_tip_y = landmarks[lm_index].y 
                 finger_bottom_y = landmarks[lm_index - 2].y
                 
-                # Obtenha o valor y da ponta e da parte inferior do polegar
+                # Obtenha o valor x da ponta e da parte inferior do polegar
                 thumb_tip_x = landmarks[lm_index].x
                 thumb_bottom_x = landmarks[lm_index - 2].x
 
