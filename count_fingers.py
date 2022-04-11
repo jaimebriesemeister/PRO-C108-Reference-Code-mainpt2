@@ -41,7 +41,7 @@ def countFingers(image, hand_landmarks, handNo=0):
         totalFingers = fingers.count(1)
 
         # Exiba o texto
-        text = f'Fingers: {totalFingers}'
+        text = f'Dedos: {totalFingers}'
 
         cv2.putText(image, text, (50,50), cv2.FONT_HERSHEY_SIMPLEX, 1, (255,0,0), 2)
 
